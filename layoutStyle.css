@@ -87,3 +87,25 @@
   width: 100%; 
   height: auto; 
 }
+
+.col2 div nav ul li{
+ text-align:center;
+ text-transform:uppercase;
+  border-bottom:1px solid #000000;
+ 
+}
+
+    .col2 div nav ul li:first-child {
+        border-top: 1px solid #000000;
+    }
+
+.col2 div nav ul li a{
+   line-height:200%;
+ color:#01313D;
+}
+
+
+
+.bottom{
+    margin-top:2%;
+}

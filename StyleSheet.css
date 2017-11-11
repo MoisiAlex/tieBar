@@ -128,3 +128,28 @@ button:hover {
     padding-right:5%;
 }
 
+
+.wedding{
+    background: url(images/img1.png) center no-repeat;
+    flex-basis:50%;
+    height:auto;
+}
+
+.contact{
+    background-color:#f4f5f7;
+    padding:2%;
+}
+
+.footer{
+    background-color:#003845;
+    height:300px;
+}
+
+.footer p{
+    color:#ffffff;
+}
+
+.footerTwo{
+    background-color:#03D2D2;
+    height:30px;
+}
