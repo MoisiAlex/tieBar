@@ -1,0 +1,130 @@
+﻿*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    font-size:16px;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+h1{
+    text-transform:uppercase;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+
+p{
+    color:#01313D;
+}
+
+ ul{
+   list-style:none;
+   padding:1%;
+}
+
+.line{
+    width:45px;
+    height:3px;
+    background-color:#01313D;
+    margin:2%;
+}
+
+button{
+    background-color:#01313D;
+    color:#ffffff;
+    border:1px solid #01313D;
+    padding:1%;
+    padding-left:3%;
+    padding-right:3%;
+    text-transform:uppercase;
+}
+
+
+button:hover {
+        background-color:#ffffff;
+        color:#01313D;
+  }
+
+/*----------------general stuff---------------*/
+
+.search{
+    border: 1px solid #000000;
+}
+
+.search input{ 
+    border: none;
+
+}
+.search #sub{
+    width:15px;
+    height:15px;
+   }
+
+.menu a{
+    margin-right:25%;
+}
+
+.menu a img{
+    height:38px;
+    width:40px;
+}
+
+.menu a p {
+    text-decoration:none;
+    color:#000000;
+    font-weight:bold;
+    text-align:center;
+    font-size:.5rem;
+}
+
+
+
+.navMenu ul li p:hover{
+    color:#a3a3a3;
+}
+
+
+/*----------Done with top menu---------------*/
+
+.ad{
+    background-color:#01313D;
+    height:35px;
+}
+
+.ad p{
+    vertical-align:middle;
+    color:#ffffff;
+    word-spacing: .20rem;
+ 
+   }
+.ad p:first-child{
+    text-transform:uppercase;
+    font-weight:bold;
+    text-align:right;
+}
+
+
+
+/*-------------------------------------*/
+
+.submenu {
+   text-align: center;
+   line-height:220%;
+   margin-top:2%;
+   z-index:10;
+}
+.submenu div{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+
+.submenu  button{
+    margin-top:5%;
+    padding:3%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
