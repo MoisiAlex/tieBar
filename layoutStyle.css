@@ -1,4 +1,4 @@
-﻿.flexContainer{
+.flexContainer{
     display:flex;
     justify-content:space-around;
     align-items:center;
@@ -108,4 +108,19 @@
 
 .bottom{
     margin-top:2%;
+}
+
+@media only screen and (max-width: 600px){
+    .flexContainer{
+        flex-direction: column;
+    }
+    .twoCol{
+       flex-direction: column; 
+    }
+    .image2{
+        display: none;
+    }
+    .navmenu nav ul{
+        display: none;
+    }
 }
