@@ -83,12 +83,12 @@ button:hover {
 
 
 .navMenu ul li p:hover{
-    color:#a3a3a3;
+    color:#03D2D2;
 }
 
 .mobile{
     display: none;
-    margin-left:10px;
+    
 }
 
 
@@ -286,8 +286,8 @@ max-height:100%;
 }
 
 .secondMenu ul li a:hover {
-    color:white;
-    text-decoration: underline;
+    color:#03D2D2;
+    
 }
 @media only screen and (max-width: 600px){
     

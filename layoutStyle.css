@@ -7,7 +7,8 @@
 }
 
 .tophead{
-    margin:2%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 
@@ -110,7 +111,12 @@
 
 
 @media only screen and (max-width: 600px){
+.tophead{
+    margin-left: 1%;
+    margin-right: 1%;
+}
 
+    
     .flexContainer{
         flex-direction: column;
     }
