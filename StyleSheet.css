@@ -147,10 +147,10 @@ button:hover {
 }
 
 .wedding{
-    background: url(images/img1.png) center no-repeat;
-    flex-basis:50%;
-    height:auto;
-    width:100%;
+position: relative;
+ flex-basis:50%;
+ 
+ 
 }
 
 .contact{
