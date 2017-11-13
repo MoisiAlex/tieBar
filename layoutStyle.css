@@ -11,14 +11,10 @@
 }
 
 
-
-
 .ad{
     display: flex;
     justify-content:space-between;
-    
 }
-
 
 .ad p { 
     flex-basis:49%;
@@ -142,5 +138,8 @@
     }
     .navMenu{
         display: none;
+    }
+    .col2 img{
+        display:none;
     }
 }

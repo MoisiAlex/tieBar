@@ -88,6 +88,7 @@ button:hover {
 
 .mobile{
     display: none;
+    margin-left:10px;
 }
 
 
@@ -142,39 +143,154 @@ button:hover {
 }
 .overlayHead h1{
    background-color: rgba(250,250,250,0.4);
-    border-radius: 5%
-    
+    border-radius: 5%   
 }
 
-.wedding{
-position: relative;
- flex-basis:50%;
- 
- 
+.overlayBotom{
+    position: absolute;
+    text-transform: uppercase;
+    bottom: 5%;
+    left: 5%;
+    background-color: rgba(250,250,250,0.4);
 }
+
+.overlayBotom a p:hover{
+     color:white;
+    text-decoration: underline;
+}
+
+.box{
+    position: relative;
+    flex-basis:50%;
+    max-height: inherit;
+  
+  
+}
+
+img{
+max-width:100%;
+max-height:100%;      
+}
+
+.tophead img{
+    max-width: none;
+}
+
+.right{
+    float:right;
+    position: relative;
+
+  
+}
+
 
 .contact{
     background-color:#f4f5f7;
     padding:2%;
 }
 
+.contact button{
+    background-color:#f4f5f7;
+    color:#01313D;
+    
+}
+
+.contact button:hover {
+    background-color:#01313D;
+    color:#f4f5f7;
+}
+
+.store{
+    text-align: center;
+}
+
+.store h3{
+    text-decoration: uppercase;
+    font-size:1rem;
+    margin-bottom: 30px;
+}
+
+.btn{
+    padding-left:30px;
+    padding-right:30px;
+    
+}
+
+.btn2{
+    margin-left: 30px;
+    padding-left:30px;
+    padding-right:30px;
+    
+}
+.store img{
+    margin:5%;
+    height: 30px;
+    width: 30px;
+}
+
+.form{
+    display:inline;
+}
+
+
 .footer{
     background-color:#003845;
-    height:300px;
+    text-align: left;
+    padding-bottom: 2%;
 }
 
 .footer p{
+    font-size: .75rem;
+    padding:1%;
+    color:#ffffff;
+}
+
+
+.footer h1{
+    padding:5%;
+   padding-left:0;
+    font-size: .9rem;
     color:#ffffff;
 }
 
 .footerTwo{
     background-color:#03D2D2;
-    height:30px;
+    
 }
 
+.footerTwo p{
+    padding: .5%;
+   font-size: .5rem;
+}
 
+.footer2{
+    background-color:#003845;
+    
+}
+.footer2 p{
+    color:#ffffff;
+    margin-top: 5%;
+    font-size: .5rem;
+    margin:1%;
+    padding-right:10px;
+    width:100%;
+    
+}
 
+.specialJ{
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:10px;
+    border:1px solid #03D2D2;
+    color:#03D2D2;
+}
+
+.secondMenu ul li a:hover {
+    color:white;
+    text-decoration: underline;
+}
 @media only screen and (max-width: 600px){
+    
     p{
         font-size: .7rem;
     }
@@ -185,6 +301,20 @@ position: relative;
     .mobile{
         display: inline-block;
 
+    }
+    
+     .mobile1{
+        display: none;
+    }
+    
+    .midmenu button{
+    width: 100%;
+    margin-top:10px;
+}
+
+    
+    .footer{
+    text-align: center;
     }
     .Logo{
         background-color:#01313D;
