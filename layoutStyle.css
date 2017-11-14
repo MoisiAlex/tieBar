@@ -5,15 +5,6 @@
 }
 
 
-.ad{
-    display: flex;
-    justify-content:space-between;
-}
-
-.ad p { 
-    flex-basis:49%;
-    margin:auto;
-}
 
 .twoCol{
     display:flex;

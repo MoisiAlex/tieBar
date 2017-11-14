@@ -130,11 +130,16 @@ button:hover {
 
 .ad{
     background-color:#01313D;
-    height:35px;
+    height:auto;
+    justify-content:center;
+    align-items: center;
 }
 
 .ad p{
-    vertical-align:middle;
+    flex-basis:49%;
+    margin:auto;
+    margin-top:4px;
+    margin-bottom:4px;
     color:#ffffff;
     word-spacing: .20rem;
  
@@ -143,6 +148,7 @@ button:hover {
     text-transform:uppercase;
     font-weight:bold;
     text-align:right;
+    margin-bottom:0;
 }
 
 
@@ -335,13 +341,13 @@ max-height:100%;
     width:300px;
     flex-wrap:wrap;
     display:flex;
-    align-items: center;
-    justify-content: space-around;
+    margin-top:20px;
     
 }
 
 .support a{
-    
+   
+    align-items:center;
     margin-bottom: 30px;
     flex:33%;
     display:flex;
@@ -359,9 +365,6 @@ max-height:100%;
 }
 .support a img{
     flex:1;
-    text-align:center;
-    align-content:center;
-    justify-content:center;
     max-width: none;
     height:30px;
     width:30px;
@@ -370,6 +373,7 @@ max-height:100%;
 
 .support a p {
     flex: 1;
+    margin-top:10px;
     text-decoration:none;
     color:#ffffff;
     font-weight:bold;
@@ -381,6 +385,10 @@ max-height:100%;
 }
 
 
+.help{
+    align-items:center;
+    align-content:center;
+}
 
 @media only screen and (max-width: 800px) {
     p {
@@ -409,13 +417,16 @@ max-height:100%;
         margin-top: 10px;
     }
 
+
+    .email{
+         align-items:center;   
+         }
     .btn2{
-          padding-left:0;
-          padding-right:0;
-          margin-left: 25%;
-          margin-top:20px;
-          width:50%;
+        margin:0;
+        margin-top:20px;
     }
+
+
     .footer {
         text-align: center;
     }
@@ -450,6 +461,12 @@ max-height:100%;
     text-decoration:none;
     color:black;
 }
-
+    .store img{
+    margin:2%;
+}
     
+    .store h3{
+    margin-bottom: 15px;
+}
+
 }
