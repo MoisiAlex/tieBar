@@ -1,14 +1,7 @@
 .flexContainer{
     display:flex;
     justify-content:space-around;
-    align-items:center;
     flex-wrap: nowrap;
-
-}
-
-.tophead{
-    margin-left: 15%;
-    margin-right: 15%;
 }
 
 
@@ -20,8 +13,8 @@
 .ad p { 
     flex-basis:49%;
     margin:auto;
-    
 }
+
 .twoCol{
     display:flex;
     position:relative;
@@ -93,13 +86,13 @@
  
 }
 
-    .col2 div nav ul li:first-child {
+.col2 div nav ul li:first-child {
         border-top: 1px solid #000000;
     }
 
 .col2 div nav ul li a{
    line-height:200%;
- color:#01313D;
+   color:#01313D;
 }
 
 
@@ -110,19 +103,23 @@
 
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 .tophead{
     margin-left: 1%;
     margin-right: 1%;
 }
 
-    
     .flexContainer{
         flex-direction: column;
     }
 
-    .menu{
+    .tophead{
         flex-direction: row;
+    }
+
+    .support{
+        flex-direction: row;
+        margin:0 auto;
     }
     .search{
         display: none;
@@ -130,7 +127,7 @@
     #sub{
         display:inline-block;
     }
-    .logo{
+    .tophead div:nth-child(2){
         display: none; 
     }
     .twoCol{

@@ -13,14 +13,21 @@ h1{
     font-weight:bold;
 }
 
-
 p{
     color:#01313D;
 }
 
- ul{
+ul{
    list-style:none;
    padding:1%;
+}
+
+ul li p:hover{
+    color:#03D2D2;
+}
+
+ ul li a:hover {
+    color:#03D2D2;
 }
 
 .line{
@@ -40,7 +47,6 @@ button{
     text-transform:uppercase;
 }
 
-
 button:hover {
         background-color:#ffffff;
         color:#01313D;
@@ -54,25 +60,33 @@ button:hover {
 
 .search input{ 
     border: none;
-
 }
+
 .search #sub{
     width:15px;
     height:15px;
     padding-top:2%;
-    padding-left: 1%;
-   }
+    padding-left:1.5%;
+ }
 
-.menu a{
-    margin-right:25%;
+.tophead{
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    
 }
 
-.menu a img{
+
+.tophead a img{
+    max-width: none;
     height:38px;
     width:40px;
 }
 
-.menu a p {
+
+.tophead a p {
+    align-content:center;
+    justify-content:center;
     text-decoration:none;
     color:#000000;
     font-weight:bold;
@@ -80,17 +94,37 @@ button:hover {
     font-size:.5rem;
 }
 
-
-
-.navMenu ul li p:hover{
+.tophead a:hover  p{
     color:#03D2D2;
 }
 
+
 .mobile{
     display: none;
-    
 }
 
+.tophead nav ul{ display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+
+.mMobile{
+    display: none;
+    height:38px;
+    width:40px;
+}
+
+.mMobile p{
+
+    text-decoration:none;
+    color:#000000;
+    font-weight:bold;
+    text-align:center;
+    font-size:.5rem;
+
+}
 
 /*----------Done with top menu---------------*/
 
@@ -125,8 +159,6 @@ button:hover {
     margin-left:auto;
     margin-right:auto;
 }
-
-
 
 .submenu  button{
     margin-top:5%;
@@ -164,7 +196,6 @@ button:hover {
     flex-basis:50%;
     max-height: inherit;
   
-  
 }
 
 img{
@@ -172,15 +203,10 @@ max-width:100%;
 max-height:100%;      
 }
 
-.tophead img{
-    max-width: none;
-}
 
 .right{
     float:right;
     position: relative;
-
-  
 }
 
 
@@ -205,7 +231,7 @@ max-height:100%;
 }
 
 .store h3{
-    text-decoration: uppercase;
+    text-transform:uppercase;
     font-size:1rem;
     margin-bottom: 30px;
 }
@@ -224,8 +250,8 @@ max-height:100%;
 }
 .store img{
     margin:5%;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: auto;
 }
 
 .form{
@@ -283,56 +309,147 @@ max-height:100%;
     margin-left:10px;
     border:1px solid #03D2D2;
     color:#03D2D2;
+
 }
 
+.specialJ p{
+    font-size:.7em;
+    margin:0 auto;
+    padding-left:10px;
+}
+
+.specialJ:hover p{
+    color:#000000;
+}
+
+.mobile1 input::placeholder{
+    font-size:.7em;
+}
 .secondMenu ul li a:hover {
     color:#03D2D2;
     
 }
-@media only screen and (max-width: 600px){
+
+
+.support{
+    width:300px;
+    flex-wrap:wrap;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
     
-    p{
+}
+
+.support a{
+    
+    margin-bottom: 30px;
+    flex:33%;
+    display:flex;
+    flex-direction:column;
+   
+}
+
+.support a:nth-child(4){
+    flex:50%;
+    align-self:center;
+}
+.support a:last-child{
+    flex:50%;
+    align-self:center;
+}
+.support a img{
+    flex:1;
+    text-align:center;
+    align-content:center;
+    justify-content:center;
+    max-width: none;
+    height:30px;
+    width:30px;
+}
+
+
+.support a p {
+    flex: 1;
+    text-decoration:none;
+    color:#ffffff;
+    font-weight:bold;
+    font-size:.5rem;
+}
+
+.support a:hover  p{
+    color:#03D2D2;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    p {
         font-size: .7rem;
     }
-    .tophead{
+
+    .tophead {
+        margin: 0;
         margin-bottom: 0;
         padding-bottom: 0;
     }
-    .mobile{
-        display: inline-block;
 
+    .mMobile{
+           display: inline-block;
     }
-    
-     .mobile1{
+    .mobile {
+        display: inline-block;
+    }
+
+    .mobile1 {
         display: none;
     }
-    
-    .midmenu button{
-    width: 100%;
-    margin-top:10px;
+
+    .midmenu button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btn2{
+          padding-left:0;
+          padding-right:0;
+          margin-left: 25%;
+          margin-top:20px;
+          width:50%;
+    }
+    .footer {
+        text-align: center;
+    }
+
+    .tophead div:nth-child(5) {
+        background-color: #01313D;
+    }
+
+    .mobile img {
+        height: 100%;
+        width: auto;
+    }
+
+    .ad p {
+        padding-top: 1%;
+    }
+
+    #wish {
+        display: none;
+    }
+
+
+    nav:hover ul {
+		display: block;
+	}
+
+    li a {
+	display: inline-block;
+	text-align: left;
+	padding: 2%;
+    font-size: .7rem;
+    text-decoration:none;
+    color:black;
 }
 
     
-    .footer{
-    text-align: center;
-    }
-    .Logo{
-        background-color:#01313D;
-        margin-right:10%;
-    }
-
-    .mobile img{
-        height:100%;
-        width:auto;
-        
-    }
-    .ad p{
-        padding-top:1%;
-    }
-    #wish{
-        display:none;
-    }
-    .menu{
-        margin-bottom: 0;
-    }
 }
