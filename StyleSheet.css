@@ -56,47 +56,63 @@ button:hover {
 
 .search{
     border: 1px solid #000000;
+    padding:4px;
 }
 
 .search input{ 
     border: none;
 }
 
+.search input::placeholder{ 
+    font-size:.8em;
+}
+
+
+
 .search #sub{
     width:15px;
     height:15px;
-    padding-top:2%;
-    padding-left:1.5%;
+    margin-top:2%;
+    margin-left:5px;
+    
  }
 
 .tophead{
-    margin-left: 15%;
-    margin-right: 15%;
+
+    margin-top:2%;
     align-items: center;
+    text-align: center;
     
 }
 
 
 .tophead a img{
     max-width: none;
-    height:38px;
-    width:40px;
+    height:30px;
+    width:auto;
+    justify-content:center;
+   
 }
 
 
-.tophead a p {
-    align-content:center;
-    justify-content:center;
+.tophead a p{
+     
     text-decoration:none;
-    color:#000000;
-    font-weight:bold;
-    text-align:center;
-    font-size:.5rem;
+    color:#000000;   
+    font-size:.6rem;
 }
 
 .tophead a:hover  p{
     color:#03D2D2;
 }
+
+.topmenu{
+    margin:0;
+    display:flex;
+    width:20%;
+    text-align: center;
+}
+
 
 
 .mobile{
@@ -128,29 +144,45 @@ button:hover {
 
 /*----------Done with top menu---------------*/
 
-.ad{
+.navMenu p{
+    font-size:.7em;
+}
+.navMenu{
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.bannerAd{
     background-color:#01313D;
     height:auto;
     justify-content:center;
-    align-items: center;
+    
+    align-content:center;
+    padding-top:5px;
+    padding-bottom:5px;
 }
 
-.ad p{
+.bannerAd p{
     flex-basis:49%;
     margin:auto;
     margin-top:4px;
     margin-bottom:4px;
     color:#ffffff;
     word-spacing: .20rem;
+    font-size:.9em;
  
    }
-.ad p:first-child{
+.bannerAd p:first-child{
     text-transform:uppercase;
     font-weight:bold;
     text-align:right;
     margin-bottom:0;
+    letter-spacing: -1px;
 }
 
+.bannerAd p:last-child{
+    color:#93A2AA;
+}
 
 
 /*-------------------------------------*/
@@ -193,8 +225,8 @@ button:hover {
 }
 
 .overlayBotom a p:hover{
-     color:white;
-    text-decoration: underline;
+     color:#03D2D2;
+ 
 }
 
 .box{
@@ -388,6 +420,7 @@ max-height:100%;
 .help{
     align-items:center;
     align-content:center;
+    text-align:center;
 }
 
 @media only screen and (max-width: 800px) {
@@ -399,6 +432,17 @@ max-height:100%;
         margin: 0;
         margin-bottom: 0;
         padding-bottom: 0;
+    }
+
+    .topmenu {
+    margin:0;
+    display:flex;
+    width:100%;
+    text-align: center;
+}
+
+    .topmenu:nth-child(4){
+        align-items:stretch;
     }
 
     .mMobile{
@@ -453,6 +497,10 @@ max-height:100%;
 		display: block;
 	}
 
+   nav:active ul {
+		display: block;
+	}
+
     li a {
 	display: inline-block;
 	text-align: left;
@@ -468,5 +516,8 @@ max-height:100%;
     .store h3{
     margin-bottom: 15px;
 }
+
+    .log{
+         background-color:#11303C;  }
 
 }
