@@ -420,7 +420,13 @@ max-height:100%;
     color:#03D2D2;
 }
 
+.sociallinks{
+      display:flex;
+      align-items:center;
+     justify-content:center;
+      
 
+}
 
 .sociallinks a:first-child{
       padding-left:0;
@@ -428,6 +434,7 @@ max-height:100%;
 
 .sociallinks a{
       padding:10px;
+      flex:1;
 }
 
 .help{
