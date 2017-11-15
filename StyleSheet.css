@@ -56,24 +56,27 @@ button:hover {
 
 .search{
     border: 1px solid #000000;
-    padding:4px;
+    position:relative;
 }
 
 .search input{ 
     border: none;
+    height:30px;
 }
 
 .search input::placeholder{ 
     font-size:.8em;
+  
 }
 
 
 
 .search #sub{
+    position:relative;
     width:15px;
     height:15px;
-    margin-top:2%;
-    margin-left:5px;
+    top:2.5px;
+    margin-left:7px;
     
  }
 
@@ -416,6 +419,15 @@ max-height:100%;
     color:#03D2D2;
 }
 
+
+
+.sociallinks a:first-child{
+      padding-left:0;
+}
+
+.sociallinks a{
+      padding:10px;
+}
 
 .help{
     align-items:center;
